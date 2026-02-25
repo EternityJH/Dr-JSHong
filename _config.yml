@@ -2,7 +2,7 @@ title: Jia-Sheng Hong
 email: jshong@example.com
 description: >-
   Personal academic website of Dr. Jia-Sheng Hong.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/Dr-JSHong" # the subpath of your site, e.g. /blog
 url: "https://eternityjh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username: EternityJH
