@@ -1,0 +1,28 @@
+title: Jia-Sheng Hong
+email: jshong@example.com
+description: >-
+  Personal academic website of Dr. Jia-Sheng Hong.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://eternityjh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 
+github_username: EternityJH
+scholar_userid: _v_Q3H8AAAAJ
+orcid_id: 0000-0001-8066-8841
+researchgate_profile: Jia-Sheng-Hong
+linkedin_profile: jia-sheng-hong-149021106
+sciprofiles_profile: JSHong
+
+theme: minima # We are not heavily relying on it, but it's a good default
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

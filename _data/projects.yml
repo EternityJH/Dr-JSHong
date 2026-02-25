@@ -1,0 +1,19 @@
+- title: Medical Image Analysis Toolkit
+  description: A Python library for automating the preprocessing and segmentation of NIfTI format brain MRI scans using state-of-the-art architectures.
+  category: Software
+  icon: fas fa-brain
+  github: https://github.com/EternityJH
+  link: "#"
+  tags:
+    - Python
+    - PyTorch
+    - MRI
+
+- title: Automated Coronary Artery Calcium Scorer
+  description: Implementation of the nested U-Net and focal loss architecture designed for accurate and fast coronary artery calcium scoring.
+  category: Research Code
+  icon: fas fa-heartbeat
+  github: https://github.com/EternityJH
+  tags:
+    - Medical AI
+    - Deep Learning

@@ -1,0 +1,60 @@
+<footer
+    class="bg-gray-100 dark:bg-gray-900 mt-auto py-8 text-center text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-800 transition-colors duration-300">
+    <div class="container mx-auto px-4 max-w-5xl">
+
+        <!-- Social Links -->
+        <div class="flex justify-center space-x-6 mb-4">
+            {% if site.email %}
+            <a href="mailto:{{ site.email }}"
+                class="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors" aria-label="Email">
+                <i class="fas fa-envelope text-xl"></i>
+            </a>
+            {% endif %}
+
+            {% if site.scholar_userid %}
+            <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank"
+                rel="noopener noreferrer"
+                class="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                aria-label="Google Scholar">
+                <i class="fas fa-graduation-cap text-xl"></i>
+            </a>
+            {% endif %}
+
+            {% if site.orcid_id %}
+            <a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" rel="noopener noreferrer"
+                class="text-gray-500 hover:text-green-500 transition-colors" aria-label="ORCID">
+                <i class="fab fa-orcid text-xl"></i>
+            </a>
+            {% endif %}
+
+            {% if site.github_username %}
+            <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer"
+                class="text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors" aria-label="GitHub">
+                <i class="fab fa-github text-xl"></i>
+            </a>
+            {% endif %}
+
+            {% if site.researchgate_profile %}
+            <a href="https://www.researchgate.net/profile/{{ site.researchgate_profile }}" target="_blank"
+                rel="noopener noreferrer" class="text-gray-500 hover:text-teal-500 transition-colors"
+                aria-label="ResearchGate">
+                <i class="fab fa-researchgate text-xl"></i>
+            </a>
+            {% endif %}
+
+            {% if site.linkedin_profile %}
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_profile }}" target="_blank" rel="noopener noreferrer"
+                class="text-gray-500 hover:text-blue-700 dark:hover:text-blue-500 transition-colors"
+                aria-label="LinkedIn">
+                <i class="fab fa-linkedin text-xl"></i>
+            </a>
+            {% endif %}
+        </div>
+
+        <!-- Copyright -->
+        <p>
+            &copy; {{ 'now' | date: "%Y" }} {{ site.title }}. Powered by <a href="https://jekyllrb.com/"
+                class="hover:underline">Jekyll</a> & GitHub Pages.
+        </p>
+    </div>
+</footer>

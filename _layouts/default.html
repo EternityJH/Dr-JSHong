@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  
+  <!-- Tailwind CSS via CDN for simple static deployment -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Optional Tailwind config for custom colors -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class', // Enable dark mode support
+      theme: {
+        extend: {
+          colors: {
+            primary: '#2c3e50',
+            secondary: '#18bc9c',
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    /* Dark mode toggle basics */
+    .dark body { background-color: #111827; color: #F9FAFB; }
+    .dark .bg-white { background-color: #1F2937; }
+    .dark .text-gray-900 { color: #F9FAFB; }
+    .dark .text-gray-600 { color: #D1D5DB; }
+    .dark .border-gray-200 { border-color: #374151; }
+  </style>
+
+  <script>
+    // Check initial dark mode preference
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+
+    function toggleDarkMode() {
+      if (document.documentElement.classList.contains('dark')) {
+        document.documentElement.classList.remove('dark')
+        localStorage.theme = 'light'
+      } else {
+        document.documentElement.classList.add('dark')
+        localStorage.theme = 'dark'
+      }
+    }
+  </script>
+</head>
+<body class="flex flex-col min-h-screen bg-gray-50 text-gray-900 transition-colors duration-300">
+
+  {%- include header.html -%}
+
+  <main class="flex-grow container mx-auto px-4 py-8 max-w-5xl" aria-label="Content">
+    {{ content }}
+  </main>
+
+  {%- include footer.html -%}
+
+</body>
+</html>

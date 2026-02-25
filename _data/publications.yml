@@ -1,0 +1,89 @@
+- title: "Automated coronary artery calcium scoring using nested U-Net and focal loss"
+  authors: "JS Hong, [...]"
+  venue: "Medical Physics"
+  year: 2021
+  citations: 28
+  type: "journal"
+  doi: "10.1002/mp.14811"
+  pdf_link: "#"
+
+- title: "Systematic review and meta-analysis of deep learning applications in computed tomography lung cancer segmentation"
+  authors: "JS Hong, [...]"
+  venue: "European Radiology"
+  year: 2022
+  citations: 25
+  type: "journal"
+  doi: "10.1007/s00330-022-08830-y"
+  pdf_link: "#"
+
+- title: "Peritherapeutic hemodynamic changes of carotid stenting evaluated with quantitative DSA in patients with carotid stenosis"
+  authors: "JS Hong, [...]"
+  venue: "Journal of NeuroInterventional Surgery"
+  year: 2020
+  citations: 30
+  type: "journal"
+  doi: "10.1136/neurintsurg-2019-015509"
+  pdf_link: "#"
+
+- title: "In-room assessment of intravascular velocity from time-resolved rotational angiography in patients with arteriovenous malformation: a pilot study"
+  authors: "JS Hong, [...]"
+  venue: "Journal of NeuroInterventional Surgery"
+  year: 2021
+  citations: 22
+  type: "journal"
+  doi: "10.1136/neurintsurg-2020-016462"
+  pdf_link: "#"
+
+- title: "Accelerated white matter lesion analysis based on simultaneous T1 and T2∗ quantification using magnetic resonance fingerprinting and deep learning"
+  authors: "JS Hong, [...]"
+  venue: "Magnetic Resonance in Medicine"
+  year: 2023
+  citations: 21
+  type: "journal"
+  doi: "10.1002/mrm.29465"
+  pdf_link: "#"
+
+- title: "Standalone deep learning versus experts for diagnosis lung cancer on chest computed tomography: a systematic review"
+  authors: "JS Hong, [...]"
+  venue: "European Radiology"
+  year: 2022
+  citations: 18
+  type: "review"
+  doi: "10.1007/s00330-022-08853-5"
+  pdf_link: "#"
+
+- title: "Artificial intelligence detection and segmentation models: a systematic review and meta-analysis of brain tumors in magnetic resonance imaging"
+  authors: "JS Hong, [...]"
+  venue: "European Radiology"
+  year: 2023
+  citations: 16
+  type: "review"
+  doi: "10.1007/s00330-023-09419-[X]"
+  pdf_link: "#"
+
+- title: "Deep learning detection and segmentation of brain arteriovenous malformation on magnetic resonance angiography"
+  authors: "JS Hong, [...]"
+  venue: "Stroke"
+  year: 2022
+  citations: 16
+  type: "journal"
+  doi: "10.1161/STROKEAHA.121.0375[X]"
+  pdf_link: "#"
+
+- title: "Acceleration of magnetic resonance fingerprinting reconstruction using denoising and self-attention pyramidal convolutional neural network"
+  authors: "JS Hong, [...]"
+  venue: "Magnetic Resonance in Medicine"
+  year: 2022
+  citations: 16
+  type: "journal"
+  doi: "10.1002/mrm.29050"
+  pdf_link: "#"
+
+- title: "Federated learning: a cross‐institutional feasibility study of deep learning based intracranial tumor delineation framework for stereotactic radiosurgery"
+  authors: "JS Hong, [...]"
+  venue: "Medical Physics"
+  year: 2023
+  citations: 15
+  type: "journal"
+  doi: "10.1002/mp.1636[X]"
+  pdf_link: "#"

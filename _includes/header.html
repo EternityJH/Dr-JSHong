@@ -1,0 +1,65 @@
+<header class="bg-white dark:bg-gray-800 shadow-sm sticky top-0 z-50 transition-colors duration-300">
+    <div class="container mx-auto px-4 py-4 max-w-5xl flex justify-between items-center">
+        <!-- Brand / Name -->
+        <a href="{{ '/' | relative_url }}"
+            class="text-xl font-bold tracking-tight text-gray-900 dark:text-white hover:text-blue-600 transition-colors">
+            Dr. {{ site.title }}
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex space-x-6 items-center">
+            <a href="{{ '/' | relative_url }}"
+                class="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium">Home</a>
+            <a href="{{ '/publications' | relative_url }}"
+                class="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium">Publications</a>
+            <a href="{{ '/projects' | relative_url }}"
+                class="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium">Projects</a>
+            <a href="{{ '/cv' | relative_url }}"
+                class="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium">CV</a>
+
+            <!-- Dark Mode Toggle -->
+            <button onclick="toggleDarkMode()"
+                class="ml-4 p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-600 dark:text-gray-300 transition-colors"
+                aria-label="Toggle Dark Mode">
+                <i class="fas fa-moon dark:hidden"></i>
+                <i class="fas fa-sun hidden dark:inline"></i>
+            </button>
+        </nav>
+
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden flex items-center">
+            <button onclick="toggleDarkMode()"
+                class="mr-4 p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-600 dark:text-gray-300 transition-colors"
+                aria-label="Toggle Dark Mode">
+                <i class="fas fa-moon dark:hidden"></i>
+                <i class="fas fa-sun hidden dark:inline"></i>
+            </button>
+            <button id="mobile-menu-btn"
+                class="text-gray-600 dark:text-gray-300 hover:text-blue-600 focus:outline-none">
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Mobile Navigation Dropdown -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white dark:bg-gray-800 border-t dark:border-gray-700">
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 shadow-inner">
+            <a href="{{ '/' | relative_url }}"
+                class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:text-blue-600 hover:bg-gray-50 dark:hover:bg-gray-700">Home</a>
+            <a href="{{ '/publications' | relative_url }}"
+                class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:text-blue-600 hover:bg-gray-50 dark:hover:bg-gray-700">Publications</a>
+            <a href="{{ '/projects' | relative_url }}"
+                class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:text-blue-600 hover:bg-gray-50 dark:hover:bg-gray-700">Projects</a>
+            <a href="{{ '/cv' | relative_url }}"
+                class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:text-blue-600 hover:bg-gray-50 dark:hover:bg-gray-700">CV</a>
+        </div>
+    </div>
+</header>
+
+<script>
+    // Mobile menu toggle logic
+    document.getElementById('mobile-menu-btn').addEventListener('click', function () {
+        var menu = document.getElementById('mobile-menu');
+        menu.classList.toggle('hidden');
+    });
+</script>

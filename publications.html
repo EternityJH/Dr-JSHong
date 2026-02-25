@@ -1,0 +1,197 @@
+---
+layout: default
+title: Publications
+---
+
+<div class="py-8">
+    <div class="mb-8">
+        <h1 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-2">Publications</h1>
+        <div class="w-16 h-1 bg-blue-500 rounded mb-6"></div>
+        <p class="text-gray-600 dark:text-gray-400">
+            A selected list of my recent peer-reviewed publications. For a full list, please visit my <a
+                href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank"
+                class="text-blue-600 dark:text-blue-400 hover:underline">Google Scholar</a>.
+        </p>
+    </div>
+
+    <!-- Search and Filter Bar -->
+    <div
+        class="bg-white dark:bg-gray-800 p-4 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 mb-8 flex flex-col md:flex-row gap-4">
+        <div class="flex-grow">
+            <div class="relative">
+                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                    <i class="fas fa-search text-gray-400"></i>
+                </div>
+                <input type="text" id="searchInput"
+                    class="block w-full pl-10 pr-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                    placeholder="Search by title, author, or venue...">
+            </div>
+        </div>
+        <div class="flex gap-2">
+            <select id="yearFilter"
+                class="block w-full pl-3 pr-10 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent appearance-none">
+                <option value="all">All Years</option>
+                <!-- Extract unique years using Javascript -->
+            </select>
+            <select id="typeFilter"
+                class="block w-full pl-3 pr-10 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent appearance-none">
+                <option value="all">All Types</option>
+                <option value="journal">Journal Articles</option>
+                <option value="conference">Conference Papers</option>
+                <option value="review">Reviews</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Publications List -->
+    <div class="space-y-6" id="publicationsList">
+        {% assign pubs = site.data.publications | sort: 'year' | reverse %}
+        {% for pub in pubs %}
+
+        <!-- Bold my name in authors list -->
+        {% assign bolded_authors = pub.authors | replace: 'JS Hong', '<strong class="text-gray-900 dark:text-white">JS
+            Hong</strong>' %}
+
+        <div class="pub-item bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 transition-all hover:shadow-md"
+            data-title="{{ pub.title | downcase }}" data-authors="{{ pub.authors | downcase }}"
+            data-venue="{{ pub.venue | downcase }}" data-year="{{ pub.year }}"
+            data-type="{{ pub.type | default: 'journal' }}">
+
+            <div class="flex flex-col md:flex-row gap-4 justify-between items-start">
+                <div class="flex-grow">
+                    <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-1 leading-snug">
+                        {{ pub.title }}
+                    </h3>
+                    <p class="text-gray-700 dark:text-gray-300 mb-1">
+                        {{ bolded_authors }}
+                    </p>
+                    <p class="text-sm text-gray-500 dark:text-gray-400 font-medium mb-3">
+                        <em class="not-italic text-blue-600 dark:text-blue-400">{{ pub.venue }}</em>, {{ pub.year }}
+                    </p>
+
+                    <div class="flex flex-wrap gap-3 mt-4">
+                        {% if pub.pdf_link %}
+                        <a href="{{ pub.pdf_link }}" target="_blank"
+                            class="inline-flex items-center text-sm font-medium text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 transition-colors">
+                            <i class="fas fa-file-pdf mr-1"></i> PDF
+                        </a>
+                        {% endif %}
+
+                        {% if pub.doi %}
+                        <a href="https://doi.org/{{ pub.doi }}" target="_blank"
+                            class="inline-flex items-center text-sm font-medium text-green-600 hover:text-green-800 dark:text-green-400 dark:hover:text-green-300 transition-colors">
+                            <i class="fas fa-external-link-alt mr-1"></i> DOI
+                        </a>
+                        {% endif %}
+
+                        <button onclick="copyCitation('bibtex-{{ forloop.index }}')"
+                            class="inline-flex items-center text-sm font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors group">
+                            <i class="fas fa-quote-right mr-1"></i> Cite
+                            <span id="copy-msg-bibtex-{{ forloop.index }}"
+                                class="ml-2 text-xs text-green-500 opacity-0 transition-opacity">Copied!</span>
+                        </button>
+                    </div>
+
+                    <!-- Hidden BibTeX content for copying -->
+                    <div id="bibtex-{{ forloop.index }}" class="hidden">
+                        @article{hong{{ pub.year }},
+                        title={ {{ pub.title }} },
+                        author={ {{ pub.authors }} },
+                        journal={ {{ pub.venue }} },
+                        year={ {{ pub.year }} },
+                        {% if pub.doi %} doi={ {{ pub.doi }} }{% endif %}
+                        }
+                    </div>
+                </div>
+
+                <!-- Optional Metric Badge -->
+                {% if pub.citations > 0 %}
+                <div
+                    class="flex-shrink-0 flex items-center justify-center bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg px-3 py-2 text-center shadow-sm">
+                    <div>
+                        <span class="block text-lg font-bold text-gray-900 dark:text-white leading-none">{{
+                            pub.citations }}</span>
+                        <span
+                            class="block text-[10px] uppercase tracking-wider text-gray-500 dark:text-gray-400 mt-1">Citations</span>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+
+        <!-- No Results Message -->
+        <div id="noResults" class="hidden text-center py-12 text-gray-500 dark:text-gray-400">
+            <i class="fas fa-search text-3xl mb-3"></i>
+            <p>No publications found matching your search criteria.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Citation Copy Logic
+    function copyCitation(id) {
+        const text = document.getElementById(id).innerText;
+        navigator.clipboard.writeText(text).then(() => {
+            const msg = document.getElementById('copy-msg-' + id);
+            msg.classList.remove('opacity-0');
+            setTimeout(() => msg.classList.add('opacity-0'), 2000);
+        });
+    }
+
+    // Filtering and Search Logic
+    document.addEventListener("DOMContentLoaded", function () {
+        const searchInput = document.getElementById('searchInput');
+        const yearFilter = document.getElementById('yearFilter');
+        const typeFilter = document.getElementById('typeFilter');
+        const pubItems = document.querySelectorAll('.pub-item');
+        const noResults = document.getElementById('noResults');
+
+        // Populate Year Filter options dynamically
+        const years = new Set();
+        pubItems.forEach(item => years.add(item.getAttribute('data-year')));
+        const sortedYears = Array.from(years).sort().reverse();
+        sortedYears.forEach(year => {
+            const option = document.createElement('option');
+            option.value = year;
+            option.textContent = year;
+            yearFilter.appendChild(option);
+        });
+
+        function filterPublications() {
+            const searchTerm = searchInput.value.toLowerCase();
+            const selectedYear = yearFilter.value;
+            const selectedType = typeFilter.value;
+            let visibleCount = 0;
+
+            pubItems.forEach(item => {
+                const title = item.getAttribute('data-title');
+                const authors = item.getAttribute('data-authors');
+                const venue = item.getAttribute('data-venue');
+                const year = item.getAttribute('data-year');
+                const type = item.getAttribute('data-type');
+
+                const matchesSearch = title.includes(searchTerm) || authors.includes(searchTerm) || venue.includes(searchTerm);
+                const matchesYear = selectedYear === 'all' || selectedYear === year;
+                const matchesType = selectedType === 'all' || selectedType === type;
+
+                if (matchesSearch && matchesYear && matchesType) {
+                    item.style.display = 'block';
+                    visibleCount++;
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+
+            if (visibleCount === 0) {
+                noResults.classList.remove('hidden');
+            } else {
+                noResults.classList.add('hidden');
+            }
+        }
+
+        searchInput.addEventListener('input', filterPublications);
+        yearFilter.addEventListener('change', filterPublications);
+        typeFilter.addEventListener('change', filterPublications);
+    });
+</script>
