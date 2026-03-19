@@ -1,89 +1,279 @@
-- title: "Automated coronary artery calcium scoring using nested U-Net and focal loss"
-  authors: "JS Hong, [...]"
-  venue: "Medical Physics"
-  year: 2021
-  citations: 28
+- title: "Automated aortic quantification based on artificial intelligence: Validation using  contrast-enhanced and non-contrast CT scans from the same session"
+  authors: "Hong, J. S., Tzeng, Y. H., Wu, K. T., Huang, S. Y., Wang, T. W., Li, G. Y., Lin,  C. Y., Liu, H. R., Fu, H. N., Lee, Y. T., Yin, W. H., & Wu, Y. T."
+  venue: "Preprints,  202602.1599.v1."
+  year: 2026
+  citations: 0
   type: "journal"
-  doi: "10.1002/mp.14811"
+  doi: ""
   pdf_link: "#"
 
-- title: "Systematic review and meta-analysis of deep learning applications in computed tomography lung cancer segmentation"
-  authors: "JS Hong, [...]"
-  venue: "European Radiology"
+- title: "Prognostic power of radiomics in head and neck cancers: Insights  from a meta-analysis"
+  authors: "Wang, T. W., Wang, C. K., Hong, J. S., Lin, Y. H., Wang, S. Y., Lu, C. F., & Wu,  Y. T."
+  venue: "Computer Methods and Programs in Biomedicine, 108683."
+  year: 2025
+  citations: 0
+  type: "journal"
+  doi: ""
+  pdf_link: "#"
+
+- title: "Deep Learning in Thoracic Oncology: Meta-Analytical Insights into  Lung Nodule Early-Detection Technologies"
+  authors: "Wang, T. W., Wang, C. K., Hong, J. S., Chao, H. S., Chen, Y. M., & Wu, Y. T."
+  venue: "Cancers, 17(4), 621."
+  year: 2025
+  citations: 0
+  type: "journal"
+  doi: ""
+  pdf_link: "#"
+
+- title: "Performance of Convolutional Neural Network Models in  Meningioma Segmentation in Magnetic Resonance Imaging: A Systematic  Review and Meta-Analysis"
+  authors: "Wang, T. W., Hong, J. S., Lee, W. K., Lin, Y. H., Yang, H. C., Lee, C. C., Chen,  H. C., et al."
+  venue: "Neuroinformatics, 23(1), 1–12."
+  year: 2025
+  citations: 0
+  type: "journal"
+  doi: ""
+  pdf_link: "#"
+
+- title: "Meta-analysis of deep learning approaches for automated  coronary artery calcium scoring: Performance and clinical utility"
+  authors: "Wang, T. W., Tzeng, Y. H., Wu, K. T., Liu, H. R., Hong, J. S., Hsu, H. Y., Fu, H.  N., et al."
+  venue: "Computers in  Biology and Medicine, 183, 109295."
+  year: 2024
+  citations: 0
+  type: "journal"
+  doi: ""
+  pdf_link: "#"
+
+- title: "The Role of Deep Learning in Aortic Aneurysm  Segmentation and Detection from CT scans: A Systematic Review and Meta- analysis"
+  authors: "Wang, T. W., Tzeng, Y. H., Hong, J. S., Liu, H. R., Fu, H. N., Lee, Y. T., Yin, W.  H., & Wu, Y. T."
+  venue: "Next Research, 100059."
+  year: 2024
+  citations: 0
+  type: "journal"
+  doi: ""
+  pdf_link: "#"
+
+- title: "Standalone deep learning versus experts for diagnosis lung cancer on  chest computed tomography: a systematic review"
+  authors: "Wang, T. W., Hong, J. S., Chiu, H. Y., Chao, H. S., Chen, Y. M., & Wu, Y. T."
+  venue: "European Radiology, 34(11),  7397–7407."
+  year: 2024
+  citations: 0
+  type: "journal"
+  doi: ""
+  pdf_link: "#"
+
+- title: "Deep Learning Models for Aorta  Segmentation in Computed Tomography Images: A Systematic Review And   Meta-Analysis"
+  authors: "Wang, T. W., Tzeng, Y. H., Hong, J. S., Liu, H. R., Wu, K. T., Fu, H. N., Lee, Y.  T., Yin, W. H., & Wu, Y. T."
+  venue: "Journal of Medical and Biological Engineering, 44(4), 489–498."
+  year: 2024
+  citations: 0
+  type: "journal"
+  doi: ""
+  pdf_link: "#"
+
+- title: "Federated learning: A cross‐institutional feasibility study  of deep learning based intracranial tumor delineation framework for stereotactic  radiosurgery"
+  authors: "Lee, W. K., Hong, J. S., Lin, Y. H., Lu, Y. F., Hsu, Y. Y., Lee, C. C., Yang, H. C.,  Wu, C. C., et al."
+  venue: "Journal of Magnetic Resonance Imaging, 59(6), 1967–1975."
+  year: 2024
+  citations: 0
+  type: "journal"
+  doi: ""
+  pdf_link: "#"
+
+- title: "Systematic review and meta-analysis of deep learning applications in  computed tomography lung cancer segmentation"
+  authors: "Wang, T. W., Hong, J. S., Huang, J. W., Liao, C. Y., Lu, C. F., & Wu, Y. T."
+  venue: "Radiotherapy and Oncology,"
+  year: 2024
+  citations: 0
+  type: "journal"
+  doi: ""
+  pdf_link: "#"
+
+- title: "Artificial intelligence detection and segmentation  models: a systematic review and meta-analysis of brain tumors in magnetic  resonance imaging"
+  authors: "11. Wang, T. W., Shiao, Y. C., Hong, J. S., Lee, W. K., Hsu, M. S., Cheng, H. M.,  Yang, H. C., et al."
+  venue: "Mayo Clinic Proceedings: Digital Health, 2(1), 75–91."
+  year: 2024
+  citations: 0
+  type: "journal"
+  doi: ""
+  pdf_link: "#"
+
+- title: "Deep learning detection and segmentation  of brain arteriovenous malformation on magnetic resonance angiography"
+  authors: "Hong, J. S., You, W. C., Sun, M. H., Pan, H. C., Lin, Y. H., Lu, Y. F., Chen, K.  M., Huang, T. H., & Wu, Y. T."
+  venue: "Journal of Magnetic Resonance Imaging, 59(2), 587–598.h"
+  year: 2024
+  citations: 0
+  type: "journal"
+  doi: ""
+  pdf_link: "#"
+
+- title: "Automated coronary artery calcium scoring using  nested U-Net and focal loss"
+  authors: "Hong, J. S., Tzeng, Y. H., Yin, W. H., Wu, K. T., Hsu, H. Y., Lu, C. F., Liu, H.  R.*, & Wu, Y. T.*"
+  venue: "Computational and Structural Biotechnology  Journal, 20, 1681-1690."
   year: 2022
-  citations: 25
+  citations: 0
   type: "journal"
-  doi: "10.1007/s00330-022-08830-y"
+  doi: ""
   pdf_link: "#"
 
-- title: "Peritherapeutic hemodynamic changes of carotid stenting evaluated with quantitative DSA in patients with carotid stenosis"
-  authors: "JS Hong, [...]"
-  venue: "Journal of NeuroInterventional Surgery"
+- title: "Acceleration of Magnetic Resonance  Fingerprinting Reconstruction Using Denoising and Self-Attention Pyramidal  Convolutional Neural Network"
+  authors: "Hong, J. S., Hermann, I., Zöllner, F. G., Schad, L. R., Wang, S. J., Lee, W. K.,  Chen, Y. L., & Wu, Y. T.*"
+  venue: "Sensors, 22(3), 1260."
+  year: 2022
+  citations: 0
+  type: "journal"
+  doi: ""
+  pdf_link: "#"
+
+- title: "Evaluation of abdominal computed  tomography scans for differentiating the discrepancies in abdominal adipose  tissue between two major subtypes of primary aldosteronism"
+  authors: "Chen K. M., Lee B. C., Chen P. T., Liu K. L., Lin K. H., Chang C. C.*, Wu T.  H.*, Hong J. S., & Lin Y. H."
+  venue: "Frontiers in  endocrinology, 12."
+  year: 2021
+  citations: 0
+  type: "journal"
+  doi: ""
+  pdf_link: "#"
+
+- title: "Aldosterone-producing adenoma-harbouring KCNJ5 mutations is  associated with lower prevalence of metabolic disorders and abdominal obesity"
+  authors: "Chen K. M., Chang Y. L., Wu T. H., Lee B. C., Chen P. T., Liu K. L., Hong J. S.,  Chang C. C.*, Wu V. C., & Lin Y. H., on behalf of the TAIPAI Study Group"
+  venue: "Journal of Hypertension, 39(12), 2353-2360."
+  year: 2021
+  citations: 0
+  type: "journal"
+  doi: ""
+  pdf_link: "#"
+
+- title: "Accelerated white matter  lesion analysis based on simultaneous T1 and T2∗ quantiﬁcation using Magnetic  Resonance Fingerprinting and Deep Learning"
+  authors: "Hermann, I.*, Martínez-Heras, E., Rieger, B., Schmidt, R., Golla, A. K., Hong,  J. S., Lee, W. K., Wu, Y. T., Nagetegaal, M., Solana, E., Llufriu, S., Gass, A.,  Schad, L. R., Weingärtner, S., & Zöllner, F. G."
+  venue: "Magnetic Resonance in Medicine,  86(1), 471-486."
   year: 2020
-  citations: 30
+  citations: 0
   type: "journal"
-  doi: "10.1136/neurintsurg-2019-015509"
+  doi: ""
   pdf_link: "#"
 
-- title: "In-room assessment of intravascular velocity from time-resolved rotational angiography in patients with arteriovenous malformation: a pilot study"
-  authors: "JS Hong, [...]"
-  venue: "Journal of NeuroInterventional Surgery"
-  year: 2021
-  citations: 22
+- title: "Machine Learning Application  With Quantitative Digital Subtraction Angiography for Detection of  Hemorrhagic Brain Arteriovenous Malformations"
+  authors: "Hong, J. S., Lin, C. J., Lin, Y. H., Lee, C. C., Yang, H. C., Meng, L. H., Lin, T.  M., Hu, Y. S., Guo, W. Y., & Wu, Y. T.*"
+  venue: "IEEE Access, 8, 204573-"
+  year: 2020
+  citations: 0
   type: "journal"
-  doi: "10.1136/neurintsurg-2020-016462"
+  doi: ""
   pdf_link: "#"
 
-- title: "Accelerated white matter lesion analysis based on simultaneous T1 and T2∗ quantification using magnetic resonance fingerprinting and deep learning"
-  authors: "JS Hong, [...]"
-  venue: "Magnetic Resonance in Medicine"
-  year: 2023
-  citations: 21
+- title: "Validating the  Automatic Independent Component Analysis of DSA"
+  authors: "20. Hong, J. S., Kao, Y. H., Chang, F. C., & Lin, C. J.*"
+  venue: "American Journal of  Neuroradiology, 40(3), 540-542."
+  year: 2019
+  citations: 0
   type: "journal"
-  doi: "10.1002/mrm.29465"
+  doi: ""
   pdf_link: "#"
 
-- title: "Standalone deep learning versus experts for diagnosis lung cancer on chest computed tomography: a systematic review"
-  authors: "JS Hong, [...]"
-  venue: "European Radiology"
-  year: 2022
-  citations: 18
-  type: "review"
-  doi: "10.1007/s00330-022-08853-5"
-  pdf_link: "#"
-
-- title: "Artificial intelligence detection and segmentation models: a systematic review and meta-analysis of brain tumors in magnetic resonance imaging"
-  authors: "JS Hong, [...]"
-  venue: "European Radiology"
-  year: 2023
-  citations: 16
-  type: "review"
-  doi: "10.1007/s00330-023-09419-[X]"
-  pdf_link: "#"
-
-- title: "Deep learning detection and segmentation of brain arteriovenous malformation on magnetic resonance angiography"
-  authors: "JS Hong, [...]"
-  venue: "Stroke"
-  year: 2022
-  citations: 16
+- title: "In- room assessment of intravascular velocity from time-resolved rotational  angiography in patients with arteriovenous malformation: a pilot study"
+  authors: "Lin, C. J.*, Yang, H. C., Chien, A. C., Guo, W. Y., Wu, C. C., Hung, S. C., Chen,  K. K., Wu, H. M., Luo, C. B., Chu, W. F., Hong, J. S., & Wu, C. S. F."
+  venue: "Journal  of NeuroInterventional Surgery, 10(6), 580-586."
+  year: 2018
+  citations: 0
   type: "journal"
-  doi: "10.1161/STROKEAHA.121.0375[X]"
+  doi: ""
   pdf_link: "#"
 
-- title: "Acceleration of magnetic resonance fingerprinting reconstruction using denoising and self-attention pyramidal convolutional neural network"
-  authors: "JS Hong, [...]"
-  venue: "Magnetic Resonance in Medicine"
-  year: 2022
-  citations: 16
+- title: "Automatic flow analysis of digital subtraction angiography using  independent component analysis in patients with carotid stenosis"
+  authors: "Lee, H. J., Hong, J. S., Lin, C. J.*, Kao, Y. H., Chang, F. C., Luo, C. B., & Chu,  W. F."
+  venue: "PloS one,  12(9), e0185330."
+  year: 2017
+  citations: 0
   type: "journal"
-  doi: "10.1002/mrm.29050"
+  doi: ""
   pdf_link: "#"
 
-- title: "Federated learning: a cross‐institutional feasibility study of deep learning based intracranial tumor delineation framework for stereotactic radiosurgery"
-  authors: "JS Hong, [...]"
-  venue: "Medical Physics"
-  year: 2023
-  citations: 15
+- title: "Peritherapeutic hemodynamic changes of carotid stenting evaluated with  quantitative DSA in patients with carotid stenosis"
+  authors: "Teng, M. M. H., Chang, F. C., Lin, C. J.*, Chiang, L., Hong, J. S., & Kao, Y. H.*"
+  venue: "American Journal of  Neuroradiology, 37(10), 1883-1888."
+  year: 2016
+  citations: 0
   type: "journal"
-  doi: "10.1002/mp.1636[X]"
+  doi: ""
   pdf_link: "#"
+
+- title: "Impact of positional difference on the measurement of breast density  using MRI"
+  authors: "Chen, J. H.*, Chan, S., Tang, Y. T., Hong, J. S., Tseng, P. C., Cheriyan, A. T.,  Shah, N. R., Yeh, D. C., Lee, S. K., Chen, W. P., McLaren, C. E., & Su, M. Y."
+  venue: "Medical physics, 42(5), 2268-2275."
+  year: 2015
+  citations: 0
+  type: "journal"
+  doi: ""
+  pdf_link: "#"
+
+- title: "Multi-modal machine learning for CCTA  referral decision: Integrating opportunistic coronary calcium screening from  LDCT with clinical data"
+  authors: "Wu, K. T., Liu, H. R., Yin, W. H., Huang, S. Y., Hong, J. S., Li, G. Y., Lu, C. F.,  Tzeng, Y. H., & Wu, Y. T."
+  venue: "2025 Second International Conference on Artificial  Intelligence for Medicine, Health and Care (AIxMHC), 27–33."
+  year: 2025
+  citations: 0
+  type: "conference"
+  doi: ""
+  pdf_link: "#"
+
+- title: "Lightweight 3D IDC-MambaUNet for multi-modal MRI  brain tumor segmentation using multi-resolution ensemble"
+  authors: "Sun, Y. C., Chen, J. J., Hong, J. S., Lee, W. K., You, W. C., Lee, C. C., Wu, C.  C., & Wu, Y. T."
+  venue: "2025 International  Conference on Advanced Machine Learning and Data Science (AMLDS), 366–"
+  year: 2025
+  citations: 0
+  type: "conference"
+  doi: ""
+  pdf_link: "#"
+
+- title: "Real-time and continuous AI inference workflow with PACS  integration"
+  authors: "3.  Chen, J. J., Sun, Y. C., Lien, C. Y., Hong, J. S., You, W. C., Chen, H. C., & Wu,  Y. T."
+  venue: "2025 International Conference on Advanced Machine Learning and  Data Science (AMLDS), 461–465."
+  year: 2025
+  citations: 0
+  type: "conference"
+  doi: ""
+  pdf_link: "#"
+
+- title: "Segmentation of aortic valve area and detection  of hinge points using two-step nested U-Net"
+  authors: "Li, G. Y., Tzeng, Y. H., Hong, J. S., Liu, H. R., Hsu, H. Y., Lee, Y. T., Wu, K. T.,  Yin, W. H., & Wu, Y. T."
+  venue: "2024 International Computer  Symposium (ICS), 190–194."
+  year: 2024
+  citations: 0
+  type: "conference"
+  doi: ""
+  pdf_link: "#"
+
+- title: "Machine Learning Improves Hemorrhagic Risk Stratification of Brain  Arteriovenous Venous Malformation by Using Clinical Features and Quantitative  Digital Subtraction Angiography"
+  authors: "Hong, J. S., Lin, C. J., Lin, Y. H., Meng, L. H., Lin, T. M., Hu, Y. S., and Wu, Y.  T."
+  venue: "RSNA Radiological Society of North America  106th Scientific Assembly and Annual Meeting, Chicago, United State."
+  year: 2020
+  citations: 0
+  type: "conference"
+  doi: ""
+  pdf_link: "#"
+
+- title: "Visualization of Time-to-Peak Changes on Cerebral Digital Subtraction  Angiography for Patients Underwent Endovascular Therapy"
+  authors: "Hong, J. S., Lin, C. J., Kao, Y. H., Kowarschik, M., & Meng, L. H."
+  venue: "In Proceedings of  the 2nd International Conference on Biomedical Engineering and  Bioinformatics, Tianjin, China."
+  year: 2018
+  citations: 0
+  type: "conference"
+  doi: ""
+  pdf_link: "#"
+
+- title: "ASNR American Society of Neuroradiology Annual Meeting, Vancouver,  Canada"
+  authors: "Hong, J. S., Kao, Y. H., Chang, F. C., Lin, C. J. Hemodynamic Segmentation of  Digital Subtraction Angiography Using Independent Component Analysis."
+  venue: ""
+  year: 2018
+  citations: 0
+  type: "conference"
+  doi: ""
+  pdf_link: "#"
+
+- title: "Assessment of  Downsampling in Cerebral Digital Subtraction Angiography through Gamma- variant Curve Fitting"
+  authors: "Hong, J. S., Kao, Y. H., Chen, M. C., Lin, C. J."
+  venue: "XXI Symposium Neuroradiologicum, Taipei, Taiwan."
+  year: 2018
+  citations: 0
+  type: "conference"
+  doi: ""
+  pdf_link: "#"
+

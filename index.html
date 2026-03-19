@@ -30,7 +30,7 @@ title: Home
         <!-- Real Profile Image -->
         <div
             class="w-48 h-48 md:w-64 md:h-64 rounded-full bg-gray-200 dark:bg-gray-700 border-4 border-white dark:border-gray-800 shadow-xl overflow-hidden flex items-center justify-center">
-            <img src="{{ '/assets/images/headshot.jpg' | relative_url }}" alt="{{ site.title }}" class="w-full h-full object-cover">
+            <img src="{{ '/assets/images/headshot.jpg?v=2' | relative_url }}" alt="{{ site.title }}" class="w-full h-full object-cover">
         </div>
     </div>
 </section>
@@ -81,40 +81,7 @@ title: Home
     </div>
 </section>
 
-<!-- Recent News / Highlights -->
-<section class="py-12 border-t border-gray-200 dark:border-gray-800">
-    <div class="mb-8">
-        <h2 class="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-2">Highlights & News</h2>
-        <div class="w-16 h-1 bg-blue-500 rounded"></div>
-    </div>
 
-    <div class="space-y-4">
-        <div class="flex items-start">
-            <div class="flex-shrink-0 w-24 text-sm font-medium text-gray-500 dark:text-gray-400 pt-1">Dec 2026</div>
-            <div class="flex-grow pl-4 border-l-2 border-gray-200 dark:border-gray-700 pb-6 relative">
-                <div
-                    class="absolute w-3 h-3 bg-blue-500 rounded-full -left-[7px] top-1.5 ring-4 ring-white dark:ring-gray-900">
-                </div>
-                <p class="text-gray-800 dark:text-gray-200">Site launched! Welcome to my new academic profile built with
-                    Jekyll and Tailwind CSS.</p>
-            </div>
-        </div>
-        <!-- Add more news items here -->
-        <div class="flex items-start">
-            <div class="flex-shrink-0 w-24 text-sm font-medium text-gray-500 dark:text-gray-400 pt-1">Nov 2026</div>
-            <div class="flex-grow pl-4 border-l-2 border-gray-200 dark:border-gray-700 pb-0 relative">
-                <div
-                    class="absolute w-3 h-3 bg-gray-300 dark:bg-gray-600 rounded-full -left-[7px] top-1.5 ring-4 ring-white dark:ring-gray-900">
-                </div>
-                <p class="text-gray-800 dark:text-gray-200">New paper published on Automated coronary artery calcium
-                    scoring using nested U-Net.</p>
-                <a href="{{ '/publications' | relative_url }}"
-                    class="text-sm text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 mt-1 inline-block">Read
-                    more &rarr;</a>
-            </div>
-        </div>
-    </div>
-</section>
 
 <style>
     @keyframes fadeInUp {

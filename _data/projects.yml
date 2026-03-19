@@ -1,19 +1,99 @@
-- title: Medical Image Analysis Toolkit
-  description: A Python library for automating the preprocessing and segmentation of NIfTI format brain MRI scans using state-of-the-art architectures.
-  category: Software
-  icon: fas fa-brain
-  github: https://github.com/EternityJH
-  link: "#"
+- title: "Ministry of Economic Affairs-Funded Project:"
+  description: "Clinical Workflow and Cost-Effectiveness Evaluation of the DeepBT™ Artificial Intelligence-Assisted Brain Tumor Detection System  Conducted a clinical workflow and cost-effectiveness evaluation of the DeepBT™ artificial intelligence-assisted brain tumor detection system, focusing on its integration into routine radiology practice, operational efficiency, and potential clinical and economic benefits."
+  category: "2024-2025 Principal Investigator"
+  icon: "fas fa-microscope"
+  github: ""
+  link: ""
   tags:
-    - Python
-    - PyTorch
-    - MRI
+    - Research
 
-- title: Automated Coronary Artery Calcium Scorer
-  description: Implementation of the nested U-Net and focal loss architecture designed for accurate and fast coronary artery calcium scoring.
-  category: Research Code
-  icon: fas fa-heartbeat
-  github: https://github.com/EternityJH
+- title: "Using Artificial Intelligence to Assist with"
+  description: "Transcatheter Aortic Valve Implantation Procedure Planning and Predict Patient Outcomes  Developed an artificial intelligence-assisted framework for transcatheter aortic valve implantation (TAVI) procedure planning by integrating preoperative imaging and clinical data to support treatment strategy optimization and prediction of post-procedural patient outcomes."
+  category: "2024-2025 Postdoctoral Researcher"
+  icon: "fas fa-microscope"
+  github: ""
+  link: ""
   tags:
-    - Medical AI
-    - Deep Learning
+    - Research
+
+- title: "National Science and Technology Council"
+  description: "Research Startup Program: DeepBT Intelligent Precision Medicine System for Brain Tumors: Longitudinal Lesion Detection and Annotation (Tracker)  Developed a longitudinal AI framework for brain tumor lesion detection and annotation across serial MRI examinations, supporting lesion tracking over time and serving as a core technology foundation for the establishment of a medical AI spin-off company."
+  category: "2023 Postdoctoral Researcher"
+  icon: "fas fa-microscope"
+  github: ""
+  link: ""
+  tags:
+    - Research
+
+- title: "National Science and Technology Council"
+  description: "Research Startup Program: AI-Assisted Automatic Segmentation of Preoperative and Postoperative Longitudinal Brain MRI Tumor Images  Developed an artificial intelligence framework for automatic segmentation of brain tumors on longitudinal MRI, supporting multi-timepoint assessment before and after surgery, with the goal of facilitating regulatory translation toward TFDA clearance as a Software as a Medical Device (SaMD)."
+  category: "2022 Postdoctoral Researcher"
+  icon: "fas fa-microscope"
+  github: ""
+  link: ""
+  tags:
+    - Research
+
+- title: "National Yang Ming Chiao Tung"
+  description: "University–Cheng Hsin General Hospital Integrated Research Project: Artificial Intelligence-Assisted System for Cardiovascular Angiography  Contributed to the development of an AI-assisted cardiovascular angiography system for image analysis and clinical decision support in cardiovascular assessment."
+  category: "2022–2023 Postdoctoral Researcher"
+  icon: "fas fa-microscope"
+  github: ""
+  link: ""
+  tags:
+    - Research
+
+- title: "National Health Research Institutes"
+  description: "Funded Project: Predicting Symptoms and Cognitive Performance in Affective Disorders Using Multimodal Neuroimaging and Inflammatory Cytokines  Participated in a multimodal research project integrating neuroimaging and inflammatory biomarkers to predict symptom severity and cognitive performance in affective disorders."
+  category: "2022–2023 Postdoctoral Researcher"
+  icon: "fas fa-microscope"
+  github: ""
+  link: ""
+  tags:
+    - Research
+
+- title: "Taichung Veterans General Hospital–"
+  description: "National Yang Ming Chiao University Smart Healthcare Collaboration Project: Application of Artificial Intelligence in the Hemodynamics of Cerebral Arteriovenous Malformations  Worked on AI-based analysis of cerebral arteriovenous malformation hemodynamics to support quantitative evaluation and clinical research applications."
+  category: "2022–2023 Postdoctoral Researcher"
+  icon: "fas fa-microscope"
+  github: ""
+  link: ""
+  tags:
+    - Research
+
+- title: "National Yang Ming Chiao"
+  description: "Tung University–Cheng Hsin General Hospital Research Project: Artificial Intelligence System for Coronary Artery Calcium Detection and Quantification on Computed Tomography  Developed and evaluated an AI system for automated detection and quantification of coronary artery calcification on CT images."
+  category: "2021–2022 Graduate Research Assistant (Ph.D.)"
+  icon: "fas fa-microscope"
+  github: ""
+  link: ""
+  tags:
+    - Research
+
+- title: "Taichung Veterans General"
+  description: "Hospital–National Yang Ming Chiao Tung University Smart Healthcare Collaboration Project: Deep Learning for Detection and Annotation of Arteriovenous Malformations in Radiosurgery  Contributed to the establishment of a deep learning workflow for detection and annotation of arteriovenous malformations in radiosurgery."
+  category: "2021–2022 Graduate Research Assistant (Ph.D.)"
+  icon: "fas fa-microscope"
+  github: ""
+  link: ""
+  tags:
+    - Research
+
+- title: "Ministry of Science and"
+  description: "Technology-Funded Project: Artificial Intelligence-Driven Automatic Tumor Detection, Follow-Up, and Precision Medicine Modeling for Acoustic Neuroma  Developed AI methods for automatic lesion detection and longitudinal follow-up of acoustic neuroma, with the goal of supporting precision medicine applications."
+  category: "2018–2020 Graduate Research Assistant (Ph.D.)"
+  icon: "fas fa-microscope"
+  github: ""
+  link: ""
+  tags:
+    - Research
+
+- title: "Siemens–National Yang-"
+  description: "Ming University Industry-Academia Collaboration Project: Advanced processing and visualization of Digital Subtraction Angiography series  Developed a machine learning pipeline for ruptured brain AVM detection using quantitative DSA image analysis, implementing automated feature selection methods and Bayesian optimization for model refinement."
+  category: "2017–2019 Graduate Research Assistant (M.S. –Ph.D.)"
+  icon: "fas fa-microscope"
+  github: ""
+  link: ""
+  tags:
+    - Research
+
