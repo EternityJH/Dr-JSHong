@@ -2,8 +2,8 @@ title: Jia-Sheng Hong
 email: samhong511017@gmail.com
 description: >-
   Personal academic website of Dr. Jia-Sheng Hong.
-baseurl: "/Dr-JSHong" # the subpath of your site, e.g. /blog
-url: "https://eternityjh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jshong.aitewan-bio.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username: EternityJH
 scholar_userid: _v_Q3H8AAAAJ
